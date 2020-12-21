@@ -33,7 +33,7 @@ public class CreateCourseDemo {
             //Retrieving the Data git commit
             System.out.println(session.get(Instructor.class, 1).getCourses());
 
-            System.out.println("Done...........nkn..");
+            System.out.println("Done.............");
 
             session.getTransaction().commit();
         }finally {
