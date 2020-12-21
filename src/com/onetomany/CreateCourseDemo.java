@@ -37,7 +37,6 @@ public class CreateCourseDemo {
 
             session.getTransaction().commit();
         }finally {
-            session.close();
             factory.close();
         }
     }
